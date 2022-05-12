@@ -1,0 +1,35 @@
+.tab {
+  width: 500px;
+}
+.tab-menu {
+  display: flex;
+  margin-bottom: ;
+}
+.tab-menu__item {
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+  list-style: none;
+  width: 100px;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.tab-menu__item:not(:first-child) {
+  border-left: none;
+}
+.tab-menu__item.active {
+  background: #000;
+  color: white;
+}
+.tab-content {
+  height: 200px;
+  border: 1px solid #000;
+}
+.tab-content__item {
+  display: none;
+  font-size: 40px;
+}
+.tab-content__item.show {
+  display: block;
+}
